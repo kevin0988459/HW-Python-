@@ -16,7 +16,7 @@ locationNameList = []
 
 
 
-
+##print to console
 for i in range(city):
     print(weatherJson["records"]['location'][i]['locationName'])
     locationNameList.append(weatherJson["records"]['location'][i]['locationName'])
